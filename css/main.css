@@ -28,3 +28,11 @@
   left: 47%;
   opacity: 0.5;
 }
+
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
