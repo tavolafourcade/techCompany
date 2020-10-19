@@ -196,7 +196,39 @@
   </section>
 
   <!-- Section: Contact -->
+  <section id="contact" class="section section-contact center scrllspy">
+    <div id="googlemap"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 offset-m6">
+          <div class="card-panel z-depth-5">
+            <h4>Contact Us</h4>
+            <div class="input-field">
+              <input type="text" id="name" placeholder="Name">
+              <label for="name">Name</label>
+            </div>
 
+            <div class="input-field">
+              <input type="email" id="email" placeholder="Email">
+              <label for="email">Email</label>
+            </div>
+
+            <div class="input-field">
+              <input type="text" id="phone" placeholder="Phone Number">
+              <label for="phone">Phone Number</label>
+            </div>
+
+            <div class="input-field">
+              <input type="text" id="message" placeholder="Message">
+              <label for="message">Message</label>
+            </div>
+
+            <input type="submit" value="Submit" class="btn blue-grey waves-effect waves-light">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Section: Footer -->
   <footer class="page-footer blue-grey darken-1">
     <div class="container">
@@ -237,6 +269,9 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <!-- Getting Google Maps -->
+  <script src="http://maps.googleapis.com/map/api/js"></script>
   <script>
     $(document).ready(function () {
       // Init Sidenav
@@ -260,6 +295,8 @@
       ];
 
       Materialize.scrollFire(options);
+
+      //Working with the google maps api
       
     });
   </script>
